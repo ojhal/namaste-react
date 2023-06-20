@@ -1,0 +1,43 @@
+1.What is Emmet?
+=> Emmet is typically integrated into code editors and IDEs (Integrated Development Environments)
+ like Visual Studio Code, Sublime Text, and Atom.
+  It has become an essential tool for many web developers, as it improves their workflow and increases productivity when working on HTML and CSS projects.
+
+2.Difference between library and framework?
+=>The main distinction between a framework and a library is that a framework inverts program control. 
+It informs the developer of what they require. 
+A library, however, does not. Instead, a programmer calls the library when and where he needs it.
+
+3. What is CDN ? why do we use it?
+=>CDNs work by caching content in multiple edge servers strategically placed in different regions.
+ When a user requests a particular piece of content,
+  the CDN serves it from the edge server closest to the user's location, 
+  rather than from the origin server where the content is originally hosted. 
+This proximity reduces the latency and network congestion, 
+resulting in faster content delivery.
+
+4. What is crossorigin in the script tag?
+=>The crossorigin attribute sets the mode of the request to an HTTP CORS Request.
+
+Web pages often make requests to load resources on other servers. Here is where CORS comes in.
+
+A cross-origin request is a request for a resource (e.g. style sheets, iframes, images, fonts, or scripts) from another domain.
+
+CORS is used to manage cross-origin requests.
+
+5. What is Difference between React and ReactDOM?
+=>React is the core library for building user interfaces, 
+while ReactDOM is the package that facilitates rendering those components into the browser's DOM. 
+React focuses on the component-based architecture and managing state,
+ while ReactDOM handles the rendering and updating of those components in the browser.
+
+ 6.What is the different between react.Development.js and react.production.js files via CDN?
+ =>webpack - Difference between production and development build ...
+The development build is used - as the name suggests - for development reasons. You have Source Maps, debugging and often times hot reloading ability in those builds. 
+The production build, on the other hand, 
+runs in production mode which means this is the code running on your client's machine.
+
+7.what are async and defer?
+=>Async allows your script to run as soon as it's loaded, 
+without blocking other elements on the page. Defer means your script will only execute after the page has finished loading.
+ In most cases, async is the better option — but there are exceptions.
