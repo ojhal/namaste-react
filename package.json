@@ -1,0 +1,23 @@
+{
+  "name": "namastey-react",
+  "version": "1.0.0",
+  "description": "This is namaste react by ojhal",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ojhal/namaste-react.git"
+  },
+  "keywords": [],
+  "author": "ojhal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ojhal/namaste-react/issues"
+  },
+  "homepage": "https://github.com/ojhal/namaste-react#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}
