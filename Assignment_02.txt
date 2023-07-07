@@ -1,0 +1,69 @@
+1. what is NPM?
+=> npm is a package manager.All npm packages are defined in files called package.json.
+
+2.What is parcel/webpack? why do we need it?
+=>Parcel and webpack are the bundlers used mostly for JavaScript or 
+Typescript code that helps you to minify, clean,
+ and make your code compact so that it becomes easier
+  to send a request or receive the response from the server 
+  when it usually takes you to transfer multiple files without using any bundler for loading.
+
+  3.what is parcel-cache?
+  =>cache folder (or . parcel-cache in parcel v2) stores information about your project when parcel builds it,
+    so that when it rebuilds, it doesn't have to re-parse and re-analyze everything from scratch.
+   It's a key reason why parcel can be so fast in development mode.
+
+   4.what is npx?
+   =>NPX stands for Node Package eXecute. It is simply an NPM package runner.
+    It allows developers to execute any Javascript Package available on the NPM registry without even installing it. 
+   NPX is installed automatically with NPM version 5.2. 0 and above.
+
+   5.What is difference between dependencies and dev dependencies?
+   =>dependencies are used for production or in testing environments.
+    Whereas devDependencies are used for project development purposes only.
+
+6.What is tree shaking?
+=>Tree shaking is a term commonly used in the JavaScript context for dead-code elimination.
+ It relies on the static structure of ES2015 module syntax, i.e. import and export . 
+The name and concept have been popularized by the ES2015 module bundler rollup.
+
+7.What is hot module replacement?
+=>Hot Module Replacement is a feature that enables you to see code changes in the browser without having to refresh it.
+
+8.What is .gitingore? What should e add and not add into it?
+=>gitignore file tells Git which files to ignore when committing your project to the GitHub repository. 
+gitignore is located in the root directory of your repo.
+ / will ignore directories with the name. vendor/ ignores the vendor directory
+
+ 9.What is difference between package.json and package-lock.json?
+ =>The “package. json” file defines the rules required to run your application and install dependencies. On the other hand,
+ the “package-lock. json” file holds detailed information on all the dependencies installed based on the package.
+
+ 10.What is node_modules? Is it a  good idea to push that on git?
+ =>
+Git and npm provides an easy way to avoid pushing bulky node_modules to a GitHub repository using the . gitignore file and npm install command. A package.
+ json file is the source to regenerate node_modules , 
+ so this file is enough to set up a fresh copy of a Node project.
+
+ 11.What is the dist folder?
+ =>The /dist folder contains the minimized version of the source code. 
+The code present in the /dist folder is actually the code which is used on production web applications. 
+Along with the minified code, 
+the /dist folder also comprises of all the compiled modules that may or may not be used with other systems.
+
+12.what is browserslist read about dif bundlers: vite, webpack, parcel?
+=>Browserslist can specify which browsers your web application can run in, 
+it provides a configuration for specifying browsers range.
+ Browserslist has become a standard in the industry, 
+ it is used by libraries such as Autoprefixer, Babel, ESLint, PostCSS, SWC and Webpack.
+
+ 13.Read about ^ carot and ~ tilled ?
+ =>Using tilde ( ~ ) gives you bug fix releases and caret ( ^ ) 
+ gives you backwards-compatible new functionality as well.
+  The problem is old versions usually don't receive bug fixes that much,
+   so npm uses caret ( ^ ) as the default for --save
+
+   14.Read about script types in html (MDN docs)?
+   =>Using tilde ( ~ ) gives you bug fix releases and caret ( ^ ) gives you backwards-compatible new functionality as well.
+    The problem is old versions usually don't receive bug fixes that much, 
+    so npm uses caret ( ^ ) as the default for --save 
