@@ -5,7 +5,7 @@ const Header = () => {
     <header style={headerStyle}>
       <div style={logoStyle}>
         {/* Replace 'logo.png' with the path to your logo image */}
-        <img src="logo.png" alt="Logo" style={logoImageStyle} />
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiJ7CBZpGO0w58fuzfGwZf0sPkfK-KIAI_56W5-SKN&s" alt="Logo" style={logoImageStyle} />
       </div>
       <div style={searchBarStyle}>
         {/* You can use any search input component library or create your own */}
@@ -14,7 +14,7 @@ const Header = () => {
       </div>
       <div style={userIconStyle}>
         {/* Placeholder for the user icon */}
-        <img src="Sample_User_Icon.png" alt="User" style={userIconImageStyle} />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png" alt="User" style={userIconImageStyle} />
       </div>
     </header>
   );
